@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>まったりmatac</title>
+    <link>https://matac.info/</link>
+    <description>Recent content on まったりmatac</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 27 Feb 2022 23:31:55 +0900</lastBuildDate><atom:link href="https://matac.info/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://matac.info/post/test/</link>
+      <pubDate>Sun, 27 Feb 2022 23:31:55 +0900</pubDate>
+      
+      <guid>https://matac.info/post/test/</guid>
+      <description>日本語書けるかな 試し書き hugo hoge huga TODO 朝ご飯 昼ごはん 夕飯 写真 日本語が少し崩れている気がする そういえばポケモン新作「スカーレット」「バイオレット」が</description>
+    </item>
+    
+  </channel>
+</rss>
