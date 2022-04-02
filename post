@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+title=$@
+hugo new post/$title/index.md
