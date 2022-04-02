@@ -29,7 +29,7 @@ draft: false
 
 # custom css
 
-`./themes/even/assets/sass/_variables.scss`
+`/themes/even/assets/sass/_variables.scss`
 を参考にして，
-`./themes/even/assets/sass/_custom/_custom.scss`
+`/assets/sass/_custom/_custom.scss`
 でオーバライトすれば良い．
