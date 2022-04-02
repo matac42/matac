@@ -6,6 +6,6 @@ draft: false
 
 こっちのブログから移動してきました。
 
-![はてなブログ](https://mattari-matayu.hatenablog.com/)
+[はてなブログ](https://mattari-matayu.hatenablog.com/)
 
 よろしくお願いします。
