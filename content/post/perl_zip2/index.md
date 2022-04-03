@@ -40,6 +40,8 @@ print Dumper(\@ab);
 
 ## moduleを使わない場合
 
+参考: [https://www.koikikukan.com/archives/2014/07/03-005555.php](https://www.koikikukan.com/archives/2014/07/03-005555.php)
+
 ```perl
 use strict;
 use warnings;
