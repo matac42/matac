@@ -29,8 +29,7 @@ Hugoにおけるグローバルサイトタグの設定を説明する。</p><h2
 </span></span></code></pre></td></tr></table></div></div><p>themeを編集する必要があるが、私のブログのthemeはsubmoduleとして設定しているため直接の編集は避けたい。
 Hugoはthemeを上書きする機能があるためそれを用いる。</p><p>まず、編集したいthemeのhtmlは<code>themes/even/layouts/partials/head.html</code>である。
 <code>head.html</code>は生成されるindex.htmlの<code>&lt;head></code>部分に当たる。
-これを上書きするためには、<code>layouts/partials/head.html</code>を作成する必要がある。</p><p><code>mkdir -p layouts/partials</code>
-<code>$cp themes/even/layouts/partials/head.html layouts/partials/head.html</code></p><p>そうして<code>layouts/partials/head.html</code>にグローバルサイトタグを挿入する。
+これを上書きするためには、<code>layouts/partials/head.html</code>を作成する必要がある。</p><p><code>mkdir -p layouts/partials</code></p><p><code>$cp themes/even/layouts/partials/head.html layouts/partials/head.html</code></p><p>そうして<code>layouts/partials/head.html</code>にグローバルサイトタグを挿入する。
 これでサイトを生成し、アクセスするとgoogle analyticsにPOSTが飛び、アクセス解析が行われるようになる。</p><h1 id=if-not-siteisserver>if not .Site.IsServer</h1><p>グローバルサイトタグを<code>{{ if not .Site.IsServer }}</code>で挿入するかしないかの分岐をしている。
 <code>.Site.IsServer</code>は<code>hugo server</code>でサイトを生成表示するとき<code>true</code>となる。
 この分岐によって、Localで<code>hugo server</code>してサイトの見た目を確認するときなどに、google analyticsにPOSTが飛ばないようにしている。</p><p>参考: <a href=https://gohugo.io/variables/site/>https://gohugo.io/variables/site/</a></p><h1 id=終わりに>終わりに</h1><p>これでどれくらいの人がブログを見てくれたかわかるようになったので、少し嬉しい。</p></div><div class=post-copyright><p class=copyright-item><span class=item-title>Author</span>
