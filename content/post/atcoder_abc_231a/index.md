@@ -2,7 +2,8 @@
 title: "AtCoder ABC 231Aのコード削ってみた"
 date: 2022-04-05T03:16:05+09:00
 draft: false
-tags: [tec, perl, atcoder]
+tags: [perl, atcoder]
+categories: [tec]
 ---
 
 提出した後そのコードをどれだけ削れるかをやりたくなるのだが、これはとても短くなった。

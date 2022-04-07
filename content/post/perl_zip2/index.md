@@ -2,7 +2,8 @@
 title: "Pythonのzipに準ずるPerlのzip"
 date: 2022-04-04T00:48:06+09:00
 draft: false
-tags: [tec, perl]
+tags: [perl]
+categories: [tec]
 ---
 
 # やりたいこと

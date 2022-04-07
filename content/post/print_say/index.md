@@ -2,7 +2,8 @@
 title: "Perlの出力関数printとsayの違い"
 date: 2022-04-05T00:31:20+09:00
 draft: false
-tags: [tec, perl]
+tags: [perl]
+categories: [tec]
 ---
 
 # 出力関数printとsay
