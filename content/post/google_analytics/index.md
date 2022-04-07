@@ -48,6 +48,7 @@ Hugoはthemeを上書きする機能があるためそれを用いる。
 これを上書きするためには、`layouts/partials/head.html`を作成する必要がある。
 
 `mkdir -p layouts/partials`
+
 `$cp themes/even/layouts/partials/head.html layouts/partials/head.html`
 
 そうして`layouts/partials/head.html`にグローバルサイトタグを挿入する。
