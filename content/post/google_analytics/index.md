@@ -29,7 +29,7 @@ Hugoにおけるグローバルサイトタグの設定を説明する。
 ```html
 {{ if not .Site.IsServer }}
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-W7RK46M057"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=<key>"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
