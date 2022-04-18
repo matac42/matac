@@ -1,5 +1,5 @@
 ---
-title: "AtCoder Scripts Manager"
+title: "AtCoder拡張機能"
 date: 2022-04-18T11:31:07+09:00
 draft: false
 tags: [atcoder]
