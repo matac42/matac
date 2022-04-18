@@ -1,7 +1,7 @@
 ---
 title: "Journaling Filesystem"
 date: 2022-04-18T14:41:26+09:00
-draft: true
+draft: false
 tags: [filesystem]
 categories: [tec]
 ---
