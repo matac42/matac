@@ -6,7 +6,7 @@ tags: [filesystem]
 categories: [tec]
 ---
 
-# journaled filesystem
+# journaling filesystem
 
 [Linux System Administrators Guide](https://tldp.org/LDP/sag/html/index.html)5.10.3 Which filesystem should be used?にて、
 
@@ -22,4 +22,5 @@ categories: [tec]
 ![](img/journaling.png)
 
 ジャーナリングに準ずるファイル保護機能が標準で搭載されている。よって、ジャーナリングとは違うものであるので、「ジャーナリング　いいえ」になっている。
+
 https://discussions.apple.com/thread/251656537
