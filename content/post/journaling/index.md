@@ -14,8 +14,6 @@ categories: [tec]
 
 という記述がある。今であればext4を選ぶだろう。この本は2000年ごろに原著が出たので、その頃の話ではあるが、journaled filesystemであることはファイルシステムを選ぶ上で重要な項目のようだ。確かに、NTFS、APFS、Ext4などの現在主に使われているファイルシステムはjournalingしている。よって、もはや当たり前の機能だと思われる。
 
-# Block journalingとMetadata-only journaling
-
 # APFSのジャーナリング　いいえ
 
 ジャーナリングしていないのか？
