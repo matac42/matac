@@ -99,3 +99,78 @@ https://en.wikipedia.org/wiki/Comparison_of_file_systems
 ### OS support
 
 そのファイルシステムがどのOS上で動作するか、ということである。
+
+## Windowsアプリ開発サイト調べ
+
+https://docs.microsoft.com/ja-jp/windows/win32/fileio/filesystem-functionality-comparison
+
+### 機能
+
+- 作成時のタイムスタンプ
+- 最終アクセスタイムスタンプ
+- 最終変更時刻のタイムスタンプ
+- 最後のアーカイブタイムスタンプ
+- 大文字と小文字を区別する
+- 大文字と小文字を区別する
+- ハード リンク
+- ソフト リンク
+- スパース ファイル
+- 名前付きストリーム
+- oplock
+- 拡張属性
+- 代替データ ストリーム
+- マウント ポイント
+
+スパースファイルとは部分的に空を含むファイルを実際のファイルシステム上では、空の代わりにメタデータと呼ばれる小さな情報を書き込むことにより効率的に保存する仕組みのこと。
+
+名前付きストリーム(Named Streams, Alternate Streams, Alternate Data Streams, ADS, 代替データストリーム)とは、デフォルトのファイルストリームに名前はついていないが、一つのファイルに複数ストリームを持たせようとしたときに、デフォルトのストリームと区別するために、名前をつける必要がある。そのストリームが名前付きストリームである。
+
+参考: https://infosecwriteups.com/alternate-data-streams-ads-54b144a831f1
+
+oplockはopportunistic lockingの言い換えである。ファイルのロッキング機能。
+
+### 制限
+
+- ファイル名の最大長
+- パス名の最大長
+- ファイルサイズの最大サイズ
+- 最大ボリュームサイズ
+
+### ジャーナルと変更ログ
+
+- メタデータのみのジャーナル
+- ファイル変更ログ
+
+### ブロックの割り当て機能
+
+- 末尾のパッキング
+- Extents
+- 変数ブロックサイズ
+
+### Security
+
+- ファイル所有者の追跡
+- POSIXファイルのアクセス許可
+- アクセス制御リスト
+- ファイルシステムレベルの暗号化
+- Checksum/ECC
+
+### 圧縮
+
+- 組み込みの圧縮
+
+### クォータ
+
+- ユーザーレベルのディスク領域
+- ディレクトリレベルのディスク領域
+
+自分はクォータという用語をCephで初めて知った。ファイルの数やバイト数を制限できる機能である。
+
+参考: https://access.redhat.com/documentation/ja-jp/red_hat_ceph_storage/4/html/file_system_guide/ceph-file-system-quotas_fs
+
+### 単一インスタンスストア
+
+- ファイルレベル
+
+単一インスタンスストア(SIS)は重複を最小限に抑えつつ、disk, cache, backupなどにstoreする技術である。
+WindowsはSingle-instance store backupというAPIを持つ。
