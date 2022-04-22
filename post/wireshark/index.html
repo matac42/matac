@@ -10,7 +10,10 @@
 </span></span></code></pre></td></tr></table></div></div><h1 id=パケットキャプチャの仕組み>パケットキャプチャの仕組み</h1><p>パケットキャプチャしてパケットの内容を見ることができるWiresharkだが、そもそもどのようにパケットキャプチャしているのか知っておかないと、調査等に使うことができない。</p><p>少し調べると、WiresharkはUIを提供している感じで、実際にはlibpcapなどのパケットキャプチャドライバを用いているようだ。また、パケットキャプチャドライバはNICのプロミスキャストモードを用いている。プロミスキャプチャモードは自分のMACアドレス宛以外のパケットも読み取ることができるモードである。</p><p>自分が今ネットワークに接続しているNICに流れてくるパケットをキャプチャしているということだ。
 正確には、Wireshark起動後に選択したNICのパケットをキャプチャする。やろうと思えばBluetoothのパケットキャプチャなどもできるらしい。</p><h2 id=libpcap>libpcap</h2><p>C/C++のライブラリ</p><p><a href=https://www.tcpdump.org/>https://www.tcpdump.org/</a></p><p><a href=https://github.com/the-tcpdump-group/libpcap>https://github.com/the-tcpdump-group/libpcap</a></p></div><div class=post-copyright><p class=copyright-item><span class=item-title>Author</span>
 <span class=item-content>matac</span></p><p class=copyright-item><span class=item-title>LastMod</span>
-<span class=item-content>2022-04-22</span></p></div><footer class=post-footer><div class=post-tags><a href=https://matac.info/tags/infra/>infra</a></div><nav class=post-nav><a class=next href=https://matac.info/post/aru_diff/><span class="next-text nav-default">生る　有る　在る　或る</span>
+<span class=item-content>2022-04-22</span></p></div><footer class=post-footer><div class=post-tags><a href=https://matac.info/tags/infra/>infra</a></div><nav class=post-nav><a class=prev href=https://matac.info/post/multipass/><i class="iconfont icon-left"></i>
+<span class="prev-text nav-default">Multipass</span>
+<span class="prev-text nav-mobile">Prev</span></a>
+<a class=next href=https://matac.info/post/aru_diff/><span class="next-text nav-default">生る　有る　在る　或る</span>
 <span class="next-text nav-mobile">Next</span>
 <i class="iconfont icon-right"></i></a></nav></footer></article></div></div></main><footer id=footer class=footer><div class=social-links><a href=mailto:e185742@ie.u-ryukyu.ac.jp class="iconfont icon-email" title=email></a>
 <a href=https://twitter.com/matac42 class="iconfont icon-twitter" title=twitter></a>
