@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>filesystem on まったりするmatayu</title>
+    <link>https://matac.info/tags/filesystem/</link>
+    <description>Recent content in filesystem on まったりするmatayu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 18 Apr 2022 14:41:26 +0900</lastBuildDate><atom:link href="https://matac.info/tags/filesystem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Journaling Filesystem</title>
+      <link>https://matac.info/post/journaling/</link>
+      <pubDate>Mon, 18 Apr 2022 14:41:26 +0900</pubDate>
+      
+      <guid>https://matac.info/post/journaling/</guid>
+      <description>journaling filesystem Linux System Administrators Guide5.10.3 Which filesystem should be used?にて、 Currently, ext3 is the most popular filesystem, because it is a journaled filesystem. という記述がある。今であればext4を選ぶだろう。この本は2000年ごろに原著</description>
+    </item>
+    
+    <item>
+      <title>Filesystem measurement</title>
+      <link>https://matac.info/post/filesystem_measurement/</link>
+      <pubDate>Mon, 18 Apr 2022 14:37:02 +0900</pubDate>
+      
+      <guid>https://matac.info/post/filesystem_measurement/</guid>
+      <description>ファイルシステムを特徴づける項目は何か ファイルシステムの特徴を述べるときに、どのような項目について述べたらよいかを考える必要がある。また、フ</description>
+    </item>
+    
+  </channel>
+</rss>

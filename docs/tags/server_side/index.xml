@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>server_side on まったりするmatayu</title>
+    <link>https://matac.info/tags/server_side/</link>
+    <description>Recent content in server_side on まったりするmatayu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 07 Sep 2022 14:44:38 +0900</lastBuildDate><atom:link href="https://matac.info/tags/server_side/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KLab Server Side Campに参加しました</title>
+      <link>https://matac.info/post/klab_server_side_camp/</link>
+      <pubDate>Wed, 07 Sep 2022 14:44:38 +0900</pubDate>
+      
+      <guid>https://matac.info/post/klab_server_side_camp/</guid>
+      <description>今回KLab Server Side Camp（第3回）に参加させていただいたので、記録としてブログに残しておきたいと思い書いております。 KLab Server Side Campとは htt</description>
+    </item>
+    
+  </channel>
+</rss>
