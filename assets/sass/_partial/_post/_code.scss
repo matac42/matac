@@ -35,16 +35,15 @@ code, pre {
         font-size: $code-font-size;
         font-weight: bold;
         color: darken($gray, 10%);
-        background: darken($code-background, 3%);
-        content: 'Coe';
+        background: darken($code-background, 3%) 
       }
     }
   
-    @each $sign, $text in $code-type-list {
-      &.#{$sign} > table::after {
-        content: $text;
-      }
-    }
+    // @each $sign, $text in $code-type-list {
+    //   &.#{$sign} > table::after {
+    //     content: $text;
+    //   }
+    // }
   
     .code {
       pre {
@@ -173,11 +172,11 @@ code, pre {
       }
     }
   
-    @each $sign, $text in $code-type-list {
-      &.#{$sign} > table::after {
-        content: $text;
-      }
-    }
+    // @each $sign, $text in $code-type-list {
+    //   &.#{$sign} > table::after {
+    //     content: $text;
+    //   }
+    // }
   
     .lntd {
       // Fix code block null line height and
